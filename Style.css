@@ -1,0 +1,75 @@
+body{
+ background-image:url(backgroundimage.jpg)
+}
+label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table {
+    height: 40%;
+    position: relative;
+    width:90%;
+    left: 5%;
+  
+  }
+  
+  thead th {
+    background: #0a5d8a;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    width: 33.3333%;
+  }
+.loginContainer{
+    position: relative;
+    margin-top:150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width:fit-content;
+    background-color: white;
+    
+    
+    }
+    
+    .loginButton {
+        background-color:cornflowerblue ;
+        color: white;
+        padding: 14px 20px ;
+        margin: 8px ;
+        border: none;
+        cursor: pointer;
+        width: 40%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+.tablecontainer{
+    position: relative;
+    margin-top:50px;
+    margin-right: auto;
+    height: 450px;
+    overflow: auto;
+    
+    }
+    
+    
+    .tableimg{
+        width: 60px;
+        height: 70px;
+    }
