@@ -1,13 +1,13 @@
 const Fsquare = document.getElementById("Firstsq");
 const seqsquare = document.getElementById("secsq"); 
 var images = [];
-var imageobj;
+var imageobj:any;
 const obj_width =20;
 const obj_height = 35;
-var imleft ;
-var imtop;
-var random_left;
-var random_top;
+var imleft :any;
+var imtop:any;
+var random_left:any;
+var random_top:any;
 var faces_number = 5 ;
 function add_images(){
   
@@ -94,10 +94,10 @@ return true;
 
 function unmatched_click(){
 
-  unmatched_square = document.getElementById("dif");
-  unmatched_square.src= "smiley_face_!.png";
-  unmatched_square.id = '';
-  unmatched_square.href = 'javascript:alert("wrong face please try again")';
+  var unmatched_square  = document.getElementById("dif");
+  unmatched_square.setAttribute('src','smiley_face_!.png') ;
+  unmatched_square.setAttribute('id' , '');
+  unmatched_square.setAttribute('href' , 'javascript:alert("wrong face please try again")');
     
   add_images();
     
